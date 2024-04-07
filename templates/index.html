@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Loop Verse</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/fontawesome.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/templatemo-lugx-gaming.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/owl.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/animate.css') }}">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+<!--
+
+TemplateMo 589 lugx gaming
+
+https://templatemo.com/tm-589-lugx-gaming
+
+-->
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="/" class="logo">
+                        <img src="{{ url_for('static', filename='assets/images/rv_logo.jpg') }}" alt="" style="width: 138px;">
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                      <li><a href="/"class="active"><b>Home </b></a></li>
+                      <li><a href="AIDebugger" class="active">AI Debugger</a></li>
+                      <li><a href="Visualizer" class="active">Visualizer</a></li>
+                      <li><a href="TriviaBot" class="active">Trivia Bot</a></li>
+                      <li><a href="MatchTiles" class="active">Match Tiles</a></li>
+                      <li><a href="ARQuiz">AR Quizventure</a></li>
+                  </ul>
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="main-banner">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="caption header-text">
+            <h6>Welcome to Loop Verse!</h6>
+            <h2>Your destination to hone your programming skills!</h2>
+            <p>Loop Verse offers a complete suite of tools to help you learn Looping Statements in C. Ranging from AI-powered Debugger tool, and Trivia Question Bot, it offers a sophisticated visualizer tool using PythonTutor to clearly visualize the loop iterations and code. In addition, the Match Tiles game and AR Quizventure Instagram filter turn learning into a fun and enjoyable activity. Take a deep breath and dive into the world of Looping!</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="right-image">
+            <img src="{{ url_for('static', filename='assets/images/code_img.jpg') }}" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="features">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+            <div class="item">
+              <div class="image">
+                <img src="{{ url_for('static', filename='assets/images/featured-01.png') }}" alt="" style="max-width: 44px;">
+              </div>
+              <!--<h4>AI Debugger</h4>-->
+              <h4><li><a href="AIDebugger">AI Debugger</a></li></h4>
+              <h10>AI powered tool to solve all your programming related doubts and debug errenous code.</h10>
+            </div>
+            <div>
+                <br>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="item">
+              <div class="image">
+                <img src="{{ url_for('static', filename='assets/images/featured-04.png') }}" alt="" style="max-width: 44px;">
+              </div>
+              <h4><li><a href="Visualizer">Visualizer</a></li></h4>
+              <h10>Creative tool to visualize the sequence of execution of programs and understand the working of Loops.</h10>
+            </div>
+            <div>
+                <br>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="item">
+              <div class="image">
+                <img src="{{ url_for('static', filename='assets/images/featured-02.png') }}" alt="" style="max-width: 44px;">
+              </div>
+              <h4><li><a href="TriviaBot">Trivia Bot</a></li></h4>
+              <h10>AI powered tool that generates questions dynamically and verifies user's answer with explanation.</h10>
+            </div>
+            <div>
+                <br>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+            <div class="item">
+              <div class="image">
+                <img src="{{ url_for('static', filename='assets/images/featured-04.png') }}" alt="" style="max-width: 44px;">
+              </div>
+              <h4><li><a href="MatchTiles">Match Tiles</a></li></h4>
+              <h10>Matching the Tiles is a fun and engaging way to test your knowledge, learn and improve memory power.  </h10>
+            </div>
+            <div>
+                <br>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+            <div class="item">
+              <div class="image">
+                <img src="{{ url_for('static', filename='assets/images/featured-02.png') }}" alt="" style="max-width: 44px;">
+              </div>
+              <h4><li><a href="ARQuiz">AR Quizventure</a></li></h4>
+              <h10>AR powered quizzing tool that merges your reality with virtuality to make quizzing as fun and enjoyable as nodding your head.</h10>
+            </div>
+            <div>
+                <br>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section trending">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="section-heading" style="background-color: #f0f8ff; padding: 30px; border-radius: 15px;">
+            <h2>Why Loops?</h2>
+            <!--h2>Programming was </h2>-->
+            <br><h10>Did you know that using looping statements can significantly improve the efficiency of your code by automating repetitive tasks?</h10></br>
+            <h10>Nature is full of examples of looping patterns, from the cycles of the seasons to the repetitive behaviors of animals and the spirals found in shells and plants.</h10>
+            <h10>Understanding looping statements is a fundamental skill for any programmer, and mastering them opens up endless possibilities for building innovative software solutions!</h10>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <a href="loops types"><img src="{{ url_for('static', filename='assets/images/loops.png') }}" alt=""></a>
+        </div>
+    </div>
+  </div>
+
+  <div class="section cta">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="shop">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="section-heading">
+                  <h6>Meme time!</h6><!--add a nice meme-->
+                  <a href="meme"><img src="{{ url_for('static', filename='assets/images/meme1.webp') }}" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 offset-lg-2 align-self-end">
+          <div class="subscribe">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="section-heading">
+                  <h6>Meme time!</h6>
+                  <a href="product-details"><img src="{{ url_for('static', filename='assets/images/fbmeme2.jpg') }}" alt=""></a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="col-lg-12">
+        <p>Design Thinking Lab - RV College of Engineering © 2024 </p>
+        <p>Team Members: Goutami Sooda, Ahana Patil, Arya Vinod, Chandana S (3rd Sem CSE)</p>      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/js/isotope.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/js/owl-carousel.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/js/counter.js') }}"></script>
+  <script src="{{ url_for('static', filename='assets/js/custom.js') }}"></script>
+
+  </body>
+</html>
